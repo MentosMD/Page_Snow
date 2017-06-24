@@ -1,0 +1,72 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #fff;
+}
+.row {
+  margin: 0;
+  width: 100%;
+}
+.page-wrapper {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.page-wrapper .navbar-full-menu-sm {
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: url("../img/bg-menu.jpg");
+  display: none;
+}
+.page-wrapper .navbar-full-menu-sm .top {
+  height: 85px;
+  padding-top: 24px;
+}
+.page-wrapper .navbar-full-menu-sm .top #cross {
+  font-size: 28px;
+  color: #fff;
+  float: right;
+}
+.page-wrapper .navbar-full-menu-sm .nav-menu {
+  height: 400px;
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+.page-wrapper .navbar-full-menu-sm .nav-menu ul {
+  width: 100%;
+  text-align: center;
+  padding: 0;
+}
+.page-wrapper .navbar-full-menu-sm .nav-menu ul li {
+  list-style: none;
+}
+.page-wrapper .navbar-full-menu-sm .nav-menu ul li a {
+  font-size: 25px;
+  padding: 3px 0px;
+  color: #d5d5d5;
+  text-decoration: none;
+  font-family: Playfair Display, serif;
+  font-weight: 700;
+}
+.page-wrapper .navbar-full-menu-sm .footer-nav {
+  height: 200px;
+}
+.page-wrapper .navbar-full-menu-sm .footer-nav ul {
+  display: flex;
+}
+.page-wrapper .navbar-full-menu-sm .footer-nav ul li {
+  list-style: none;
+}
+.page-wrapper .navbar-full-menu-sm .footer-nav ul li a {
+  margin: 11px;
+}
+.page-wrapper .navbar-full-menu-sm .footer-nav ul li a span {
+  color: #969696;
+  transition: all 0.5s ease;
+  font-size: 1.13rem;
+}

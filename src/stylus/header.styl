@@ -1,0 +1,82 @@
+.header
+    background url(../img/home-7.jpg) no-repeat;
+    background-size cover;
+    background-position center;
+    padding-bottom 43px;
+    position relative;
+    
+    &:before
+        content "";
+        position absolute;
+        top 0;
+        left 0;
+        right 0;
+        width 100%;
+        height 100%;
+        background rgba(0,0,0,0.6);
+    .header-top
+        z-index 99;
+        height 83px;
+        position fixed;
+        top 0;
+        left 0;
+        .logo-brand
+                height 100%;
+                float left;
+                padding-top 0;
+        .menu
+                height 100%;
+                float right;
+                padding 0;
+                ul
+                    display flex;
+                    float right;
+                    height 100%;
+                    li
+                        list-style none;
+                        line-height 42px;
+                        a
+                          text-transform uppercase;  
+                          padding 0px 26px 0px 17px;
+                          color #bfbfbf;
+                          text-decoration none;
+                          font-size 11px;
+                          transition all .2s ease;
+                          font-weight 600;
+                          &:hover
+                              color white;
+    .header-bottom
+        padding-top 190px;
+        h2
+            font-size 14px;
+            color white;
+            letter-spacing 3px;
+            margin-bottom 30px;
+        h1
+            font-size 48px;
+            color white;
+            font-weight normal;
+            margin-bottom 60px;
+            em 
+                font-family Playfair Display,serif;
+        .btn_download
+            padding 20px 35px 20px 35px;
+            color #fff;
+            text-decoration none;
+            background #252525;
+            font-size 13px;
+            transition all .4s ease;
+            &:hover
+                background #3B3B3B;
+        .btn_scroll_down
+            width 45px;
+            height 45px;
+            border 1px solid #B3ACA7;
+            display inline-block;
+            border-radius 40px;
+            margin-top 113px;
+            color #b3aca7;
+            transition all .3s ease;
+            &:hover
+                border 1px solid white;
+                color white;

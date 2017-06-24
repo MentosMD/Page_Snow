@@ -1,0 +1,26 @@
+.footer {
+  height: 200px;
+  background: #ebebeb;
+  padding-top: 50px;
+}
+.footer .social-media ul {
+  display: flex;
+}
+.footer .social-media ul li {
+  list-style: none;
+}
+.footer .social-media ul li a {
+  margin: 11px;
+}
+.footer .social-media ul li a span {
+  color: #969696;
+  transition: all 0.5s ease;
+  font-size: 1.13rem;
+}
+.footer .social-media ul li a span:hover {
+  color: #222;
+}
+.footer .footer-text p {
+  color: #6d6d6d;
+  font-size: 14px;
+}

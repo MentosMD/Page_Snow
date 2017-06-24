@@ -1,0 +1,14 @@
+.feature {
+  color: #fff;
+  padding-top: 95px;
+  padding-bottom: 95px;
+  background: url("../img/bg-pattern.jpg");
+}
+.feature .just-text h1 {
+  font-size: 19px;
+  margin-left: 60px;
+}
+.feature .just-text p {
+  font-size: 14px;
+  margin-left: 60px;
+}

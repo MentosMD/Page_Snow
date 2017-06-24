@@ -1,0 +1,13 @@
+.carousel_multi_partner {
+  height: 200px;
+  padding-top: 47px;
+}
+.carousel_multi_partner .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.carousel_multi_partner .swiper-container .swiper-slide {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
